@@ -220,6 +220,7 @@ function restart(){
 function winGame() {
   update(locations[6]);
 }
+// last left off
 function easterEgg(){
   update(locations[7]);
 }
