@@ -75,7 +75,6 @@ const locations =[
      text: "You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose matches one of the random numbers, you win!"
   }
 ];
-s
 
 // initialize buttons
 button1.onclick = goStore;
@@ -164,7 +163,7 @@ function goFight() {
   monsterHealth = monsters[fighting].health;
   monsterStats.style.display = 'block';
   monsterName.innerText = monsters[fighting].name;
-  monsterHealthText.innerText = monsterHealthText;
+  monsterHealthText.innerText = monsters[fighting].health;
 }
 function attack(){
   text.innerText = "The " + monsters[fighting].name + " attacks.";
